@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+#root {
+  height: 100vh;
+}
+
+body {
+  background: url("/background.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@layer utilities {
+  .nav-icon-passive {
+    display: flex;
+  }
+
+  .nav-icon-active {
+    display: none;
+  }
+
+  .nav-icon:hover > .nav-icon-active {
+    display: flex;
+  }
+
+  .nav-icon:hover > .nav-icon-passive {
+    display: none;
+  }
+}

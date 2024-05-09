@@ -1,0 +1,42 @@
+[
+  {
+    "passive": "/icons/contact.svg",
+    "active": "/icons/contactDark.svg",
+    "path": "contact"
+  },
+  {
+    "passive": "/icons/share.svg",
+    "active": "/icons/shareDark.svg",
+    "path": "share"
+  },
+  {
+    "passive": "/icons/report.svg",
+    "active": "/icons/reportDark.svg",
+    "path": "report"
+  },
+  {
+    "passive": "/icons/message.svg",
+    "active": "/icons/messageDark.svg",
+    "path": "message"
+  },
+  {
+    "passive": "/icons/insights.svg",
+    "active": "/icons/insightsDark.svg",
+    "path": "insights"
+  },
+  {
+    "passive": "/icons/government.svg",
+    "active": "/icons/governmentDark.svg",
+    "path": "government"
+  },
+  {
+    "passive": "/icons/events.svg",
+    "active": "/icons/eventsDark.svg",
+    "path": "events"
+  },
+  {
+    "passive": "/icons/cctv.svg",
+    "active": "/icons/cctvDark.svg",
+    "path": "cctv"
+  }
+]
